@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="my3DGameProject" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output=".Debug/my3DGameProject" prefix_auto="1" extension_auto="1" />
+				<Option object_output=".Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output=".Release/my3DGameProject" prefix_auto="1" extension_auto="1" />
+				<Option object_output=".Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="src/engine" />
+			<Add directory="../../glm" />
+		</Compiler>
+		<Linker>
+			<Add option="-lmingw32" />
+			<Add option="-llua52" />
+			<Add option="-lSDL2main" />
+			<Add option="-lSDL2" />
+			<Add option="-lSDL2_image" />
+			<Add option="-lSDL2_ttf" />
+			<Add option="-lSDL2_mixer" />
+			<Add option="-lglew32" />
+			<Add option="-lopengl32" />
+			<Add option="-lglu32" />
+			<Add option="-lBulletSoftBody" />
+			<Add option="-lBulletDynamics" />
+			<Add option="-lBulletCollision" />
+			<Add option="-lLinearMath" />
+		</Linker>
+		<Unit filename="src/actor.cpp" />
+		<Unit filename="src/actor.h" />
+		<Unit filename="src/enemy.cpp" />
+		<Unit filename="src/enemy.h" />
+		<Unit filename="src/engine/saiAnimatedmodel.cpp" />
+		<Unit filename="src/engine/saiAnimatedmodel.h" />
+		<Unit filename="src/engine/saiBase.cpp" />
+		<Unit filename="src/engine/saiBase.h" />
+		<Unit filename="src/engine/saiCamera.cpp" />
+		<Unit filename="src/engine/saiCamera.h" />
+		<Unit filename="src/engine/saiCollision.cpp" />
+		<Unit filename="src/engine/saiCollision.h" />
+		<Unit filename="src/engine/saiDebugDrawer.cpp" />
+		<Unit filename="src/engine/saiDebugDrawer.h" />
+		<Unit filename="src/engine/saiDecal.cpp" />
+		<Unit filename="src/engine/saiDecal.h" />
+		<Unit filename="src/engine/saiDoor.cpp" />
+		<Unit filename="src/engine/saiDoor.h" />
+		<Unit filename="src/engine/saiEntity.cpp" />
+		<Unit filename="src/engine/saiEntity.h" />
+		<Unit filename="src/engine/saiFramework.cpp" />
+		<Unit filename="src/engine/saiFramework.h" />
+		<Unit filename="src/engine/saiInput.cpp" />
+		<Unit filename="src/engine/saiInput.h" />
+		<Unit filename="src/engine/saiItem.cpp" />
+		<Unit filename="src/engine/saiItem.h" />
+		<Unit filename="src/engine/saiLight.cpp" />
+		<Unit filename="src/engine/saiLight.h" />
+		<Unit filename="src/engine/saiMap.cpp" />
+		<Unit filename="src/engine/saiMap.h" />
+		<Unit filename="src/engine/saiMaterial.cpp" />
+		<Unit filename="src/engine/saiMaterial.h" />
+		<Unit filename="src/engine/saiMath.cpp" />
+		<Unit filename="src/engine/saiMath.h" />
+		<Unit filename="src/engine/saiMd5.cpp" />
+		<Unit filename="src/engine/saiMd5.h" />
+		<Unit filename="src/engine/saiModel.cpp" />
+		<Unit filename="src/engine/saiModel.h" />
+		<Unit filename="src/engine/saiOption.cpp" />
+		<Unit filename="src/engine/saiOption.h" />
+		<Unit filename="src/engine/saiParticle.cpp" />
+		<Unit filename="src/engine/saiParticle.h" />
+		<Unit filename="src/engine/saiPhysics.cpp" />
+		<Unit filename="src/engine/saiPhysics.h" />
+		<Unit filename="src/engine/saiRenderable.cpp" />
+		<Unit filename="src/engine/saiRenderable.h" />
+		<Unit filename="src/engine/saiScreentext.cpp" />
+		<Unit filename="src/engine/saiScreentext.h" />
+		<Unit filename="src/engine/saiScript.cpp" />
+		<Unit filename="src/engine/saiScript.h" />
+		<Unit filename="src/engine/saiScriptManager.cpp" />
+		<Unit filename="src/engine/saiScriptManager.h" />
+		<Unit filename="src/engine/saiShader.cpp" />
+		<Unit filename="src/engine/saiShader.h" />
+		<Unit filename="src/engine/saiSky.cpp" />
+		<Unit filename="src/engine/saiSky.h" />
+		<Unit filename="src/engine/saiSound.cpp" />
+		<Unit filename="src/engine/saiSound.h" />
+		<Unit filename="src/engine/saiSprite.cpp" />
+		<Unit filename="src/engine/saiSprite.h" />
+		<Unit filename="src/engine/saiTexture.cpp" />
+		<Unit filename="src/engine/saiTexture.h" />
+		<Unit filename="src/engine/saiTrigger.cpp" />
+		<Unit filename="src/engine/saiTrigger.h" />
+		<Unit filename="src/game.cpp" />
+		<Unit filename="src/game.h" />
+		<Unit filename="src/hud.cpp" />
+		<Unit filename="src/hud.h" />
+		<Unit filename="src/item.cpp" />
+		<Unit filename="src/item.h" />
+		<Unit filename="src/player.cpp" />
+		<Unit filename="src/player.h" />
+		<Unit filename="src/weapon.cpp" />
+		<Unit filename="src/weapon.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

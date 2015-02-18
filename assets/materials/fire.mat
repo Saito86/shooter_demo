@@ -1,0 +1,4 @@
+//fire
+df yellow.tga
+cl 1.0 1.0 1.0 0.5
+//end

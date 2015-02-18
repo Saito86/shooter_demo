@@ -1,0 +1,4 @@
+//test floor3
+df floor3.tga
+sh diffuseMap
+//end

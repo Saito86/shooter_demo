@@ -1,0 +1,11 @@
+//def pistol
+nm pistol
+1p pistol_1st pistol
+am 5 7 0
+da 30 0
+an idle 0 0 30
+an shoot 1 14 40
+an down 15 20 30
+an up 21 25 30
+ps 4.5 -4 -10 0 90 0 0.2 0.2 0.2
+//end

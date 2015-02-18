@@ -1,0 +1,4 @@
+//test wall1
+df wall.tga
+sh diffuseMap
+//end

@@ -1,0 +1,4 @@
+//barrel
+df barrel.tga
+sh texLight
+//end

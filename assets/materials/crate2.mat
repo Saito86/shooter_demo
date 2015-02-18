@@ -1,0 +1,8 @@
+//test crate2
+df crate2.tga
+nm test_normal.tga
+sh diffuseMap
+ac 0.7 0.7 0.7
+dc 0.7 0.7 0.7
+sc 1.0 1.0 1.0 32.0
+//end

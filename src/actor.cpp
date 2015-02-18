@@ -1,0 +1,19 @@
+////////////////////////////////////////////
+//////
+//Simple First Person Shooter Demo
+//////
+//by Eugen Schäfer
+//////
+////////////////////////////////////////////
+
+#include "actor.h"
+
+Actor::Actor()
+{
+    health = 100;
+}
+
+Actor::~Actor()
+{
+
+}
